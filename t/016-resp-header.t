@@ -17,7 +17,7 @@ run_tests();
 
 __DATA__
 
-=== TEST 1: set response content-type header
+=== TEST 1: sets response content-type header
 --- config
     location /read {
         content_by_lua '
